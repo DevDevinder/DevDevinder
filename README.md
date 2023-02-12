@@ -8,7 +8,7 @@
 
 - 👯 I can Assist you with **AI, Web and Game based projects**
 
-- 💬 Ask me about **Dart,Java,C#,SQL,Unity**
+- 💬 Ask me about **Dart,Java,C#,SQL,Unity,3D modeling**
 
 - 📫 How to reach me **dev@devbakshi.com**
 
