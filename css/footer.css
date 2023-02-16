@@ -1,0 +1,159 @@
+/*#region footer*/
+/* footer CSS */
+.footer__container{
+    background: rgb(24, 24, 24);
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
+/* social media Icons */
+.footer__social--media{
+    max-width: 1000px;
+    width: 100%;
+}
+.social__icon--link{
+    color: #fff;
+    font-size: 24px;
+}
+
+.social__media{
+    max-width: 1000px;
+    width: 100%;
+
+}
+
+.social__media--wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+.social__icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+.social__logo{
+    color: #fff;
+    justify-self: flex-start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.website__rights{
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 820px){
+    .footer__links{
+        padding-top: 2rem;
+    }
+    #footer__logo{
+        margin-bottom: 2rem;
+    }
+
+    .website__rights{
+        margin-bottom: 2rem;
+    }
+    .footer__link--wrapper{
+        flex-direction: column;
+    }
+
+    .footer__link--items{
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .social__media--wrap{
+        flex-direction: column;
+    }
+}
+    
+@media screen and (max-width: 480px){
+    .footer__link--items{
+        margin: 0;
+        padding: 1px;
+        width: 100%;
+        font-size: 1rem;
+    }
+    .footer__link--items a{
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+
+    }
+    .footer__link--items p{
+        margin-bottom: 0.2rem;
+        font-size: 1rem;
+    }
+    .footer__link--items h2{
+        margin-bottom: 0.1rem;
+
+        font-size: 1rem;
+    }
+
+    .footer__social--media{
+        margin-bottom: 0.5rem;
+    }
+
+
+
+
+
+    
+}
+
+@media screen and (max-width: 400px){
+
+   
+    .footer__link--items{
+          margin: 0;
+          padding: 3.5px;
+          
+        
+      
+      }
+      .footer__links
+      {
+        flex-direction: row;
+  
+      }
+      .footer__link--items a{
+          font-size: 0.9rem;
+          
+      }
+      .footer__link--items h2{
+          font-size: 0.9rem;
+      }
+      .footer__link--items p{
+          font-size: 0.8rem;
+         
+      }
+      .footer__social--media{
+          margin-top: 0px;
+      }
+  
+      #footer__logo{
+          font-size: 1.5rem;
+      }
+    
+      .social__icons{
+          padding-bottom: 30px;
+      }
+
+  }
+
+/*#endRegion*/

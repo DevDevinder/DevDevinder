@@ -1,0 +1,274 @@
+/* ********************************************************************************************************************** */
+/* ********************************************************************************************************************** */
+/* ********************************************************************************************************************** */
+
+/* services */
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: #fafafa;
+       background-image: url('images/bluef.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+
+.wrapper h1{
+    font-size: 12em;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+.wrapper p {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+  
+}
+
+.content__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:1000px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    z-index: 2;
+
+}
+
+.card{
+    min-height: 220px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    background: url(../../images/GirlOnComp.jpg) no-repeat;
+    background-size:cover;
+    
+}
+.card p{
+    font-size: 1.1em;
+   
+}
+
+.card i{
+    margin:20px;
+    color: #ff5724;
+}
+
+.card h2{
+    margin-bottom: 12px;
+    font-weight: 800;
+    text-align: center;
+    justify-self: center;
+    color: #ffffff;
+    background: rgba(37, 35, 66, 0.418);
+    border-radius: 10px;
+
+}
+.card p {
+    color: #6c757d;
+    text-align: center;
+    color: rgba(197, 170, 170, 0);
+}
+
+.card:hover i,
+.card:hover p{
+    color: #fff;
+}
+
+.card:hover h2{
+    font-weight: 600;
+    color:#f2f2f2;
+    background: rgba(0, 153, 255, 0);
+}
+
+.card:nth-child(1){
+    background-image: 
+    url(../images/studio1.jpg);
+   
+    background-size: cover;
+    
+
+ 
+}
+
+.card:nth-child(2){
+    background-image: 
+    url(../images/studio2.jpg);
+    background-size: cover;
+    
+  
+}
+
+.card:nth-child(3){
+    background-image: 
+    url(../images/studio3.jpg);
+    background-size: cover;
+    
+}
+
+.card:nth-child(4){
+    background-image: 
+    url(../images/studio4.jpg);
+    background-size: cover;
+    
+}
+
+.card:nth-child(5){
+   background-image: 
+    url(../images/studioHead.jpg);
+    background-size: cover;
+    
+}
+
+.card2:nth-child(3){
+
+    
+}
+.card:nth-child(6){
+    background-image: 
+    url(../images/VrGirls);
+    background-size: cover;
+    
+}
+
+.card:nth-child(1):hover{
+    background:linear-gradient(45deg,
+    rgba(214, 8, 255, 0.932)0%,
+    rgba(255, 0, 81, 0.205) 100%),
+    url(../images/studio1.jpg);
+    background-size: cover;
+    transform: scale(1.1);
+ 
+}
+
+.card:nth-child(2):hover{
+    background:linear-gradient(45deg,
+    rgba(255, 8, 90, 0.7)0%,
+    rgba(25, 0, 255, 0.7) 100%),
+    url(../images/studio2.jpg);
+    background-size: cover;
+    transform: scale(1.1);
+  
+}
+
+.card:nth-child(3):hover{
+    background:linear-gradient(45deg,
+    rgba(185, 8, 255, 0.7)0%,
+    rgba(17, 0, 255, 0.7) 100%),
+    url(../images/studio3.jpg);
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.card:nth-child(4):hover{
+    background:linear-gradient(45deg,
+    rgba(255,28,8,0.7)0%,
+    rgba(255, 115, 0, 0.7) 100%),
+    url(../images/studio4.jpg);
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.card:nth-child(5):hover{
+    background:linear-gradient(45deg,
+    rgba(255, 57, 8, 0.7)0%,
+    rgba(255, 196, 0, 0.7) 100%),
+    url(../images/studioHead.jpg);
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.card:nth-child(6):hover{
+    background:linear-gradient(45deg,
+    rgba(255, 37, 8, 0.7)0%,
+    rgba(43, 255, 0, 0.7) 100%),
+    url(../images/VrGirls.jpg);
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 960px){
+  .content__container{
+    flex-direction: column;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .card{
+    width: 100%;
+    margin: 10px 0;
+    padding: 0px;
+  }
+  .wrapper{
+    width: 100%;
+  }
+  .wrapper h1{
+    font-size: 8em;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  .wrapper h1{
+    font-size: 7em;
+  }
+  .wrapper p{
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .wrapper h1{
+    font-size: 6em;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .wrapper h1{
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 280px){
+  .wrapper h1{
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 240px){
+  .wrapper h1{
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 200px){
+  .wrapper h1{
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 160px){
+  .wrapper h1{
+    font-size: 1em;
+  }
+}
