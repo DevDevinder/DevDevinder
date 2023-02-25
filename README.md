@@ -10,7 +10,7 @@
 
 - 💬 Ask me about **Dart,Java,C#,SQL,Unity,3D modeling**
 
-- 📫 How to reach me **dev@devbakshi.com**
+- 📫 How to reach me **dev@devbakshi.dev**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
