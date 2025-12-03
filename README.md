@@ -3,7 +3,7 @@
 <h3 align="center">A passionate Software Engineer from Scotland</h3>
 
 - 🎓 Graduated with **First Class Honors** in **Software Engineering** 📜🥳
-- 
+  
 - 🔭 I’m currently working on **a Home Companion organiser app**
 
 - 🌱 My Favourite languages are **Dart and C#**
